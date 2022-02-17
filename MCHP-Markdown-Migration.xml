@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Descriptor for the 'Delete element' XML Refactoring operation. 
+-->
+<refactoringOperationDescriptor 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.oxygenxml.com/ns/xmlRefactoring" 
+    id="oxy-MCHP-Markdown-MIGRATION-id" 
+    name="MicrosemiMarkdown2MCHP">
+    <description>MCHP Markdown Transformation</description>    
+    <script type="XSLT" href="MCHP-Markdown-Migration\MCHP-Markdown-Migration.xsl"/>
+    <category>MCHP Markdown Transformation</category>    
+</refactoringOperationDescriptor>
